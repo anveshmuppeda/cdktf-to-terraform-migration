@@ -4,7 +4,5 @@
   "projectId": "cdktf-migration-project",
   "terraformProviders": [
     "hashicorp/aws@~> 5.0"
-  ],
-  "terraformModules": [],
-  "context": {}
+  ]
 }

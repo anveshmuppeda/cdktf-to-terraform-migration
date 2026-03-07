@@ -56,7 +56,9 @@ export class IamStack extends TerraformStack {
           {
             Effect: "Allow",
             Action: [
-              "s3:ListBucket"
+              "s3:ListBucket",
+              "s3:GetBucketLocation",
+              "s3:HeadBucket"
             ],
             Resource: "*"
           }
